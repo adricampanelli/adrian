@@ -345,17 +345,40 @@ section h2{
 
 /* videos */
 
+@keyframes moverh2{
+    0%{
+        background-color: rgb(4, 4, 4);
+        margin-top: 1em;
+    }
+    25% {
+        background-color: rgb(51, 167, 128);
+        margin-top: 4em;
+    }
+    50%{
+        background-color: rgb(99, 83, 64);
+        margin-top: 5em;
+    }
+    75% {
+        background-color: rgb(117, 117, 117);
+        margin-top: 6em;
+    }
+}
+
+.proximamente {
+    text-align: center;
+    justify-content: center;
+    animation-name: moverh2;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
 .clasedevideos {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    
     padding: 3em;
-    padding-inline: 3em;
-    gap: 2em;
 }
 
  /* footer */
