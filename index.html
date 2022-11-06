@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./imagenes/Copia de ADRI (1).ico"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./ccs/styles.css">
     <title>Document</title>
 </head>
@@ -23,11 +24,11 @@
 </header>
 <main>
     <section>
-        <h1>ADRIAN CAMPANELLI FILMAKER</h1>
+        <h1 data-aos="flip-up" >ADRIAN CAMPANELLI FILMAKER</h1>
     </section>
     <section class="prueba-1">
         <img class="img-inicio" src="./imagenes/sierrdellospadres.jpg" alt="sierradelospadres" title="sierradelospadres">
-        <video controls type="video/mp4" alt="sanandres" title="sanandres" width="400px" height="800px"> 
+        <video controls type="video/mp4" alt="sanandres" title="sanandres" width="400px" height="800px" autoplay muted> 
             <source src="./imagenes/BARCOSANANDRES.MP4"></video>
         </section>
 </main>
@@ -40,5 +41,9 @@
     <img src="./imagenes/584856bce0bb315b0f7675ad.png"   width="25" height="25">
     <p>adrian.campanelli@hotmail.com</p>
 </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+    </script>
 </body>
 </html>
