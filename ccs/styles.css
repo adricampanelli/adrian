@@ -407,11 +407,13 @@ footer p {
         align-items: center;
         align-self: center;
         align-content: center;
+        width: 100%;
+        height: 100%;
     }
-    .h1 {
-        height: auto;
-        width: auto;
+    h1 {
+        font-size: 2em;
     }
+
     .prueba-1{
         display: flex;
         flex-direction: column;
@@ -419,6 +421,9 @@ footer p {
         align-items: center;
         align-self: center;
         padding-bottom: 2em;
+    }
+    .vid-inicio {
+        object-fit: cover;
     }
     .img-inicio {
         width: 500px;
@@ -452,7 +457,7 @@ footer p {
         text-align: center;
     }
     footer {
-        width: 100vh;
+        width: 100%;
     }
 }
 
@@ -465,6 +470,13 @@ footer p {
         align-items: center;
         align-self: center;
         align-content: center;
+    }
+    h1 {
+        font-size: 3em;
+    }
+
+    .vid-inicio {
+        object-fit: cover;
     }
     .prueba-1{
         display: flex;
@@ -575,6 +587,6 @@ footer p {
         text-align: center;
     }
     footer {
-        width: 100vh;
+        width: 100%;
     }
 }
