@@ -1,4 +1,13 @@
 
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 @font-face {
     font-family: "DoctorGlitch";
@@ -6,10 +15,7 @@
     size: 21rem;
 }
 
-*{
-    margin: 0%;
-    padding: 0%;
-}
+
 
 /* inicio */
 
@@ -189,6 +195,7 @@ section h2{
 
 /* contactos  */
 
+
 .contacto-prueba1 {
     display: flex;
     flex-direction: column;
@@ -199,29 +206,13 @@ section h2{
 }
 
 .contacto-prueba2 {
-    width: 40em;
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-color: rgb(117, 117, 117);
-}
-
-.contacto-prueba3 > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 50%;
+    margin: 2em;
     padding: 2em;
 }
-.contacto-prueba3 > div input , .contacto-prueba3 > div textarea {
-    width: 200px;
-}
-
-.contacto-prueba3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
+.botonsubmit {
+    margin-top: 2em;
 }
 
 /* TRABAJOS */
@@ -252,6 +243,7 @@ section h2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .fotosdrone {

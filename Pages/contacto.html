@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/imagenes/Copia de ADRI (1).ico"> 
     <link rel="stylesheet" href="../ccs/styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <header>
@@ -20,36 +22,24 @@
         </ul> 
     </nav>
 </header>
-<body>
-    <main>
-        <section>
-            <form class="contacto-prueba1" action="">
-                <fieldset class="contacto-prueba2">
-                    <legend>Dejame tu consulta</legend>
-                    <div class="contacto-prueba3">
-                        <div>
-                            <label for="nombre"> Nombre </label>
-                            <input type="nombre" id="nombre" placeholder="nombre"  required> 
-                        </div>
-                        <div>
-                        <label for="apellido"> Apellido </label>
-                        <input type="nombre" id="apellido" placeholder="apellido" required>
-                        </div>
-                        <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="email" required>
-                        </div>
-                        <div>
-                        <label for="mensaje" id="mensaje" > Dejame tu mensaje </label>
-                        <textarea for="mensaje" required>Dejame tu mensaje</textarea>
-                        </div>
-                        <input type="submit">
-                    </div>
-                </fieldset>
-            </form>
-        </section>
+<body> 
+    <main class="contacto-prueba1">
+        <section class="contacto-prueba2">
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">NOMBRE</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="NOMBRE">
+    </div>
+    <div class="mb-3">
+        <label for="formGroupExampleInput2" class="form-label">APELLIO</label>
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="APELLIDO">
+    </div>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="COMENTARIO" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">DEJA TU COMENTARIO</label>
+        <input type="submit" class="botonsubmit"> 
+    </div>
+    </section>
     </main>
-    <footer>
         <footer>
             <img src="../imagenes/Instagram_logo_2016.svg.webp" width="25" height="25"> 
             <a href="https://www.instagram.com/adricampanelli" target="_blank">
