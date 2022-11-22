@@ -137,6 +137,7 @@ header a:hover {
   grid-column-gap: 18px;
   align-items: center;
   margin-top: 1em;
+  margin-bottom: 30em;
 }
 .orden-servicios li {
   text-align: center;
@@ -236,8 +237,13 @@ footer p {
     text-align: center;
   }
   footer {
-    width: 100%;
+    background-color: black;
+    margin-top: auto;
   }
+  footer {
+    color: bisque;
+  }
+  
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   nav {
@@ -254,7 +260,7 @@ footer p {
   }
   .vid-inicio {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .prueba-1 {
     display: flex;
