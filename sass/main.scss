@@ -245,6 +245,12 @@ footer{
         align-self: center;
         text-align: center;
     }
+    .centrarclase2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
     footer {
         background-color: black;
         margin-top: auto;
@@ -302,6 +308,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-self: center;
     }
     
     .fotosdrone {
