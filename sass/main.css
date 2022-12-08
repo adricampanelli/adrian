@@ -6,6 +6,11 @@ html, body {
   background-color: rgb(187, 187, 187);
 }
 
+.img-inicio {
+  width: 900px;
+  height: 1000px;
+}
+
 @font-face {
   font-family: "DoctorGlitch";
   src: url("letras-DoctorGlitch.otf");

@@ -1,10 +1,16 @@
 //generales
+
 html, body {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
     background-color: rgb(187, 187, 187);
+}
+
+.img-inicio{
+    width: 900px;
+    height: 1000px;
 }
 
 @font-face {
