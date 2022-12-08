@@ -19,16 +19,6 @@ h1 {
   padding-inline: 1em;
 }
 
-.prueba-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.prueba-1 .img-inicio {
-  width: 900px;
-  height: 1000px;
-}
-
 header {
   background-image: linear-gradient(to left, black, grey);
 }
@@ -71,6 +61,7 @@ header a:hover {
 .h2quienSoy .quiensoy1 img {
   height: 40%;
   width: 40%;
+  padding-inline: 1em;
 }
 .h2quienSoy .quiensoy1 p {
   padding: 3em;
@@ -180,7 +171,6 @@ footer p {
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-
   nav {
     background-color: rgb(73, 73, 121);
     display: flex;
@@ -195,7 +185,8 @@ footer p {
   h1 {
     font-size: 2em;
     line-height: 2;
-    padding-inline: 1em;}
+    padding-inline: 1em;
+  }
   .prueba-1 {
     display: flex;
     flex-direction: column;
@@ -206,7 +197,7 @@ footer p {
   }
   .vid-inicio {
     -o-object-fit: cover;
-    object-fit: cover;
+       object-fit: cover;
   }
   .img-inicio {
     width: 500px;
@@ -243,17 +234,14 @@ footer p {
     flex-direction: column;
     align-items: center;
     align-self: center;
-    overflow: hidden;
   }
-  
-  .footer {
+  footer {
     background-color: black;
     margin-top: auto;
   }
-  footer {
+  footer p {
     color: bisque;
   }
-  
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   nav {
@@ -267,10 +255,12 @@ footer p {
   }
   h1 {
     font-size: 3em;
+    line-height: 2;
+    padding-inline: 1em;
   }
   .vid-inicio {
     -o-object-fit: cover;
-    object-fit: cover;
+       object-fit: cover;
   }
   .prueba-1 {
     display: flex;

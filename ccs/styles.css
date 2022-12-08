@@ -272,6 +272,7 @@ section h2{
     grid-row: 2/3;
     height: 800px;
     width: 100%;
+
 }
 
 .imagen4 {
@@ -379,7 +380,8 @@ footer p {
 
 footer{
     background-color: black;
-    margin-top: auto;
+    margin-top: 30em;
+    
 }
 
 footer p {
@@ -465,57 +467,94 @@ footer p {
     .imagen1 {
         grid-column: 1/1;
         grid-row: 1/2;
+        min-width: 368px;
+        object-fit: cover;
+        width: 100%;
     }
     
     .imagen2 {
         grid-column:1/1;
         grid-row: 2/3;
+        min-width: 368px;
+        object-fit: cover;
+        width: 100%;
     }
     
     .imagen3 {
         grid-column: 1/1;
         grid-row: 3/4;
+        min-width: 368px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
     
     .imagen4 {
         grid-column: 1/1;
         grid-row: 4/5;
+        min-width: 368px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
     
     .imagen5 {
         grid-column: 1/1 ;
         grid-row: 5/6;
+        min-width: 368px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
     
     
     .imagen6 { 
         grid-column: 1/1;
         grid-row: 6/7;
+        min-width: 368px;
         object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
     .imagen7 {
         grid-column: 1/1;
         grid-row: 7/8;
+        min-width: 368px;
         object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
     
     .imagen8 {
         grid-column: 1/1;
         grid-row: 8/9;
+        min-width: 368px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
     
     .imagen9 {
         grid-column: 1/1;
         grid-row: 9/10;
+        min-width: 368px;
+        width: 100%;
+        min-height: 1400px;
     }
     .imagen10 {
         grid-column: 1/1;
         grid-row: 10/11;
+        min-width: 368px;
+        object-fit: cover;
+        width: 100%;
     }
     
     .imagen11{
         grid-column: 1/1;
         grid-row: 11/12;
+        min-width: 368px;
+        object-fit: cover;
+        width: 100%;
     }
     footer {
         width: 100%;
@@ -582,58 +621,98 @@ footer p {
     .imagen1 {
         grid-column: 1/1;
         grid-row: 1/2;
+        min-width: 768px;
+        min-height: 1500px;
+        object-fit: cover;
     }
     
     .imagen2 {
         grid-column:1/1;
         grid-row: 2/3;
+        min-height: max-content;
+        object-fit: cover;
+        min-height: 1500px;
     }
     
     .imagen3 {
         grid-column: 1/1;
         grid-row: 3/4;
-        max-width: max-content;
+        min-width: 768px;
+        min-height: 1500px;
+        object-fit: cover;
     }
     
     .imagen4 {
         grid-column: 1/1;
         grid-row: 4/5;
+        min-width: 790px;
+        min-height: 1600px;
+        object-fit: cover;
+        width: 100%;
     }
     
     .imagen5 {
         grid-column: 1/1 ;
         grid-row: 5/6;
+        min-width: 768px;
+        min-width: 768px;
+        min-height: 1600px;
+        object-fit: cover;
+        width: 100%;
     }
     
     
     .imagen6 { 
         grid-column: 1/1;
         grid-row: 6/7;
+        min-width: 768px;
+        min-height: 1600px;
         object-fit: cover;
+        width: 100%;
+
     }
     .imagen7 {
         grid-column: 1/1;
         grid-row: 7/8;
+        min-width: 768px;
+        min-height: 1500px;
         object-fit: cover;
+        width: 100%;
     }
     
     .imagen8 {
         grid-column: 1/1;
         grid-row: 8/9;
+        min-width: 768px;
+        min-height: 1500px;
+        object-fit: cover;
+        width: 100%;
     }
     
     .imagen9 {
         grid-column: 1/1;
         grid-row: 9/10;
-    }
+        min-width: 768px;
+        min-height: 1500px;
+        object-fit: cover;
+        width: 100%;
+        }
     .imagen10 {
         grid-column: 1/1;
         grid-row: 10/11;
+        min-width: 768px;
+        min-height: 1500px;
+        object-fit: cover;
+        width: 100%;
     }
     
     .imagen11{
         grid-column: 1/1;
         grid-row: 11/12;
+        min-width: 768px;
+        min-height: 1500px;
+        object-fit: cover;
+        width: 100%;
     }
 
     .contacto-prueba2{
